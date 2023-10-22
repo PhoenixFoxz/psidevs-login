@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
     <title>Login</title>
 </head>
 
@@ -11,8 +12,43 @@
     <main>
         <div class="container"> 
             <div class="welcome">
+                <div class="fundo">
+                    <svg width="621" height="300" viewBox="0 0 1728 1157" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="-2" width="1730" height="1157" fill="url(#paint0_linear_786_143)"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_786_143" x1="468.544" y1="473" x2="789.229" y2="847.249" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#C8DEFF"/>
+                    <stop offset="0.708333" stop-color="#88BAEB"/>
+                    <stop offset="0.807292" stop-color="#7FB5E9"/>
+                    <stop offset="1" stop-color="#71ADE4"/>
+                    </linearGradient>
+                    </defs>
+                    </svg>
+                </div>
+                <div class="fundo">
+                    <svg width="621" height="300" viewBox="0 0 1478 1157" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1066.24 292.943C1173.52 480.299 1093.68 693.917 1036.15 894.388C983.171 1079.02 936.728 1292.78 760.043 1359.93C587.045 1425.68 405.857 1296.63 240.451 1196.81C85.7238 1103.44 -61.8048 997.297 -123.535 826.712C-199.357 617.189 111.612 541.386 231.559 365.286C362.732 172.706 249.136 -85.6134 485.442 -67.3538C718.665 -49.3325 946.264 83.428 1066.24 292.943Z" fill="url(#paint0_radial_687_170)"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M372.715 109.024C439.97 -47.5277 598.669 -101.178 740.543 -162.267C871.208 -218.529 1234.45 -49.9815 1345.83 26.7701C1454.9 101.92 1234.09 33.1266 1242.18 183.384C1249.74 323.942 1246.83 466.208 1171.01 586.545C1077.89 734.35 952.489 874.865 799.701 885.661C632.615 897.467 480.377 796.091 395.304 641.354C311.342 488.636 297.505 284.092 372.715 109.024Z" fill="url(#paint1_radial_687_170)"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M567.99 800.166C602.148 633.278 453.128 230.812 373.674 100.601C300.498 -19.3219 -33.9658 184.04 -166.548 184.598C-296.363 185.145 -80.4646 252.737 -171.532 372.029C-256.72 483.62 -334.469 602.512 -341.369 744.373C-349.844 918.616 -328.32 1105.02 -211.799 1199.92C-84.3737 1303.7 94.8479 1305.84 250.213 1226.2C403.551 1147.59 529.793 986.794 567.99 800.166Z" fill="url(#paint2_radial_687_170)"/>
+                    <defs>
+                    <radialGradient id="paint0_radial_687_170" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(642.775 1431.67) rotate(23.8908) scale(617.99 632.969)">
+                    <stop stop-color="#3066B8"/>
+                    <stop offset="0.494792" stop-color="#64A8FF" stop-opacity="0.623021"/>
+                    <stop offset="1" stop-color="#C8E4FF" stop-opacity="0.06"/>
+                    </radialGradient>
+                    <radialGradient id="paint1_radial_687_170" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(843.773 78.2811) rotate(-99.8163) scale(476.556 460.228)">
+                    <stop stop-color="#5281F3"/>
+                    <stop offset="1" stop-color="#9A9EFF" stop-opacity="0"/>
+                    </radialGradient>
+                    <radialGradient id="paint2_radial_687_170" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(139.985 559.01) rotate(-46.0052) scale(474.41 452.234)">
+                    <stop stop-color="#6DA1EF"/>
+                    <stop offset="1" stop-color="#9AD5FF" stop-opacity="0"/>
+                    </radialGradient>
+                    </defs>
+                    </svg>
+                </div>
                 <div class="mulher">
-                    <svg width="379" height="512" viewBox="0 0 379 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="200" height="333" viewBox="0 0 379 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M62.4938 442.378L51.9219 511.126H63.9975L84.3971 442.378H62.4938Z" fill="#263238"/>
                     <path d="M324.938 442.378L335.51 511.126H323.42L303.035 442.378H324.938Z" fill="#263238"/>
                     <path d="M7.55265 260.027C6.70203 291.044 -1.34841 427.872 26.7066 453.922H61.5514C70.6651 453.922 70.1487 449.623 69.7993 440.555L63.1767 263.02C63.0699 259.605 61.8602 256.317 59.7287 253.648C55.1718 247.997 45.9518 239.263 33.3293 240.114C26.5176 240.442 19.9254 242.627 14.2664 246.433C12.1546 248.009 10.4455 250.062 9.27872 252.425C8.1119 254.787 7.52044 257.393 7.55265 260.027Z" fill="#5998C5"/>
@@ -91,46 +127,11 @@
                     </radialGradient>
                     </defs>
                     </svg>
-                </div>
-                <div>
-                    <svg width="1478" height="1157" viewBox="0 0 1478 1157" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1066.24 292.943C1173.52 480.299 1093.68 693.917 1036.15 894.388C983.171 1079.02 936.728 1292.78 760.043 1359.93C587.045 1425.68 405.857 1296.63 240.451 1196.81C85.7238 1103.44 -61.8048 997.297 -123.535 826.712C-199.357 617.189 111.612 541.386 231.559 365.286C362.732 172.706 249.136 -85.6134 485.442 -67.3538C718.665 -49.3325 946.264 83.428 1066.24 292.943Z" fill="url(#paint0_radial_687_170)"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M372.715 109.024C439.97 -47.5277 598.669 -101.178 740.543 -162.267C871.208 -218.529 1234.45 -49.9815 1345.83 26.7701C1454.9 101.92 1234.09 33.1266 1242.18 183.384C1249.74 323.942 1246.83 466.208 1171.01 586.545C1077.89 734.35 952.489 874.865 799.701 885.661C632.615 897.467 480.377 796.091 395.304 641.354C311.342 488.636 297.505 284.092 372.715 109.024Z" fill="url(#paint1_radial_687_170)"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M567.99 800.166C602.148 633.278 453.128 230.812 373.674 100.601C300.498 -19.3219 -33.9658 184.04 -166.548 184.598C-296.363 185.145 -80.4646 252.737 -171.532 372.029C-256.72 483.62 -334.469 602.512 -341.369 744.373C-349.844 918.616 -328.32 1105.02 -211.799 1199.92C-84.3737 1303.7 94.8479 1305.84 250.213 1226.2C403.551 1147.59 529.793 986.794 567.99 800.166Z" fill="url(#paint2_radial_687_170)"/>
-                    <defs>
-                    <radialGradient id="paint0_radial_687_170" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(642.775 1431.67) rotate(23.8908) scale(617.99 632.969)">
-                    <stop stop-color="#3066B8"/>
-                    <stop offset="0.494792" stop-color="#64A8FF" stop-opacity="0.623021"/>
-                    <stop offset="1" stop-color="#C8E4FF" stop-opacity="0.06"/>
-                    </radialGradient>
-                    <radialGradient id="paint1_radial_687_170" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(843.773 78.2811) rotate(-99.8163) scale(476.556 460.228)">
-                    <stop stop-color="#5281F3"/>
-                    <stop offset="1" stop-color="#9A9EFF" stop-opacity="0"/>
-                    </radialGradient>
-                    <radialGradient id="paint2_radial_687_170" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(139.985 559.01) rotate(-46.0052) scale(474.41 452.234)">
-                    <stop stop-color="#6DA1EF"/>
-                    <stop offset="1" stop-color="#9AD5FF" stop-opacity="0"/>
-                    </radialGradient>
-                    </defs>
-                    </svg>
-                </div>
-                <div>
-                    <svg width="1728" height="1157" viewBox="0 0 1728 1157" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="-2" width="1730" height="1157" fill="url(#paint0_linear_786_143)"/>
-                    <defs>
-                    <linearGradient id="paint0_linear_786_143" x1="468.544" y1="473" x2="789.229" y2="847.249" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#C8DEFF"/>
-                    <stop offset="0.708333" stop-color="#88BAEB"/>
-                    <stop offset="0.807292" stop-color="#7FB5E9"/>
-                    <stop offset="1" stop-color="#71ADE4"/>
-                    </linearGradient>
-                    </defs>
-                    </svg>
-                </div>
+                </div>   
             </div>
             <div class="form">
                 <div class="logo">
-                    <svg width="233" height="210" viewBox="0 0 233 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="133" height="110" viewBox="0 0 233 210" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <ellipse cx="116.5" cy="105" rx="116.5" ry="105" fill="#C2DDF6"/>
                     <path d="M130.367 67.5703H130.346V67.61H130.367V67.5703Z" fill="#415DA1"/>
                     <path d="M154.773 64.1128H144.977V74.4935H154.773V64.1128Z" fill="#415DA1"/>
@@ -145,7 +146,7 @@
                     <path d="M145.027 159.109C143.28 152.963 142.049 146.666 141.349 140.29H130.324V129.915H120.529V119.534H110.733V109.153H120.529V98.6791H130.334V88.346H140.127V77.9632L130.345 77.9521V67.6118L120.523 67.6058V57.223L130.33 57.1977V49.8399C125.648 48.2344 120.782 47.3042 115.865 47.0742C91.8417 45.7573 71.2675 62.1079 71.93 84.6585C72.017 87.6348 72.5084 92.0183 72.4969 94.8822C72.4749 105.055 64.1682 109.234 64.0085 112.472C63.7456 117.788 69.6394 116.128 71.7178 123.649C74.3563 133.197 70.5705 144.085 82.8533 143.412C87.7528 143.204 95.7154 141.189 99.1274 144.551C101.303 146.695 103.056 156.051 103.739 160.192C103.831 160.748 104.106 161.252 104.515 161.615C104.924 161.978 105.44 162.176 105.973 162.175H142.846C143.197 162.176 143.544 162.09 143.859 161.925C144.174 161.759 144.448 161.518 144.66 161.22C144.872 160.922 145.015 160.577 145.079 160.21C145.142 159.844 145.125 159.467 145.027 159.109ZM101.577 77.9956H91.7805V67.6118H101.577V77.9956ZM111.366 71.581H121.162V81.9617H111.366V71.581ZM104.036 95.9773V85.5955H113.833V95.9773H104.036ZM116.383 142.747H106.587V132.364H116.383V142.747Z" fill="#415DA1"/>
                     </svg>
                 </div>
-                <h3>Entre na sua conta!</h3>
+                <h3 class="conta">Entre na sua conta!</h3>
                 <form action="" method="post" id="form-login" name="form-login">
                     <div class="f-form">
                         <input type="email" id="email" name="email" placeholder="Email">
@@ -161,9 +162,9 @@
                         <button name="entrar" type="submit">Entrar</button>
                     </div>
                 </form>
+                <p>Esqueceu a senha? <a href="">redefinir senha</a></p>
+                <p>Não tem conta? <a href="">crie uma conta</a></p>
             </div>
-            <p>Esqueceu a senha? <a href="">redefinir senha</a></p>
-            <p>Não tem conta? <a href="">crie uma conta</a></p>
         </div>
     </main>
 </body>
