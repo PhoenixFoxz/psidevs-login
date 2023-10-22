@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family:'Plus Jakarta Sans';
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(239deg, rgba(243,247,255,1) 0%, rgba(201,224,245,1) 80%, rgba(191,218,243,1) 99%);
+    background-attachment: fixed;
+}
+
+.container {
+    background-image: linear-gradient(130deg, rgba(200,222,255,1) 0%, rgba(136,186,235,1) 75%, rgba(127,181,233,1) 80%, rgba(113,173,228,1) 99%);
+    margin: auto;
+    padding: 5%;
+    border-radius: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.welcome {
+    position: relative;
+}
+
+.bem-vindo {
+    display: flex;
+    flex-direction: column;
+    color: #152A5C;
+}
+
+.bem-vindo {
+    position: absolute;
+}
+
+.psidevs .psi {
+    position: absolute;
+    top: -215px;
+    font-size: 60px;
+    right: 1px;
+}
+
+.psidevs .devs {
+    position: absolute;
+    top: -160px;
+    font-size: 60px;
+    right: 10px;
+}
+
+.psidevs {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.mulher {
+    position: absolute;
+    width: 10px;
+    left: 153px;
+    top: 30%;
+}
+
+.s-mulher {
+    position: absolute;
+    width: 10px;
+    left: 157px;
+    bottom: -282px;
+}
+
+.f-form input {
+    border: none;
+    font-family: 'Roboto';
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 20rem;
+    box-shadow: 0px 5px 5px lightgray;
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 38px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: -66px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.f-button{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    background-image: linear-gradient(270deg, rgba(102,124,187,0.8911939775910365) 0%, rgba(90,155,249,1) 25%, rgba(118,174,226,1) 79%, rgba(163,210,253,1) 99%);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Roboto';
+}
+
+.custom-checkbox input {
+    display: none;
+}
+
+.custom-checkbox input + label:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid gray;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.custom-checkbox input:checked + label:before {
+    background-color: #415DA1;
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='17' viewBox='0 0 11 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.9873 0.848633L5.64893 5.27344L8.34424 0.848633H10.7812L6.80566 6.8457L10.9048 13H8.50146L5.69385 8.44043L2.88623 13H0.47168L4.55957 6.8457L0.595215 0.848633H2.9873Z' fill='white'/%3E%3C/svg%3E%0A");
+    background-position: 86px;
+    border: none;
+    padding: 1px;
+}
+
+.conta {
+    color: #152A5C;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cr-conta {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.cr-conta p {
+    font-size: 11px;
+}
+
