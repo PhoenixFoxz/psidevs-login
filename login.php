@@ -18,6 +18,9 @@
                     </div>
                     <h1 class="psi">PSI</h1>
                     <h1 class="devs">DEVS</h1>
+                    <div class="descricao">
+                        <p>Torem ipsum dolor sit amet, consectetur adipiscing elit. interdum, ac aliquet odio mattis.</p>
+                    </div>
                 </div>
                 <div class="mulher">
                     <svg width="150" height="283" viewBox="0 0 379 512" fill="none" xmlns="http://www.w3.org/2000/svg">
