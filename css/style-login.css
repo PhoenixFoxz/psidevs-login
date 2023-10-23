@@ -47,6 +47,7 @@ body {
     bottom: 8vh;
     font-size: 60px;
     left: 1vh;
+    right: '';
 }
 
 .psidevs .devs {
@@ -54,6 +55,7 @@ body {
     bottom: 0.01vh;
     font-size: 60px;
     left: 1vh;
+    right: '';
 }
 
 .descricao p {
@@ -130,8 +132,8 @@ button {
 
 .custom-checkbox input + label:before {
     content: '';
-    width: 18px;
-    height: 18px;
+    width: 17px;
+    height: 17px;
     border-radius: 6px;
     background-color: white;
     border: 1px solid gray;
@@ -167,5 +169,53 @@ a {
     font-size: 11px;
 }
 
+@media screen and (min-width: 1880px) {
+    .container {
+        padding: 5%;
+    }
+    .form {
+        padding: 13.04%;
+        margin: -100px;
+    }
+    .s-mulher {
+        position: absolute;
+        left: 200px;
+    }
+}
 
+@media screen and (min-width: 1920px) {
+    .container {
+        padding: 7%;
+    }
+    .form {
+        padding: 17.87%;
+        margin: -133px;
+    }
+    .s-mulher {
+        left: 110px;
+        bottom: -320px;
+    }
+
+    .s-mulher svg {
+        width: 300px;
+    }
+
+    .mulher svg{
+        width: 300px;
+    }
+
+    .mulher {
+        left: 11vh;
+    }
+    
+    .psidevs .devs {
+        font-size: 80px;  
+        left: -7vh; 
+    }
+
+    .psidevs .psi{
+        font-size: 80px;  
+        left: -7vh; 
+    }
+}
 
